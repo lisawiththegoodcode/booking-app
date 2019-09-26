@@ -1,10 +1,11 @@
 # Booking App 📖
 
 ## Launch Instructions
-1. Using the CLI, navigate to location-where-you-unzipped-this-folder/booking-app/server 
-2. Run command `npm start`
-3. In another CLI instance, navigate to location-where-you-unzipped-this-file/booking-app/client
-4. Run command `npm start`
+1. Clone or Download this Repo
+2. Using the CLI, navigate to ./booking-app/server 
+3. Run command `npm start`
+4. In another CLI instance, navigate to ./booking-app/client
+5. Run command `npm start`
 
 ## User Instructions
 1. Check out current bookings.
