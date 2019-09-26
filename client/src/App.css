@@ -1,0 +1,97 @@
+.App {
+  font-family: 'Open Sans';
+  text-align: center;
+}
+
+.App-wrapper {
+  background-color: #d8d8d8;
+  margin-top: 10vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header{
+  width: 96vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.App-header h1{
+    color: black;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    letter-spacing: .05em;
+    font-weight: 400;
+}
+
+.App-main {
+  width: 96vw;
+}
+
+#modal-title{
+  font-family: 'Open Sans';
+}
+
+#booking-form{
+  font-family: 'Open Sans';
+  padding: 10px 0;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#booking-form label{
+  font-size: .875em;
+  margin-bottom: 1px;
+}
+
+#form-half-left{
+  width: 95px;
+  margin-right: 5px;
+}
+
+#form-half-right{
+  width: 95px;
+  margin-left: 5px;
+}
+
+#submit-booking{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #f29648;
+  text-transform: none;
+  font-family: 'Open Sans';
+  font-size: .7em;
+}
+
+.form-left {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-right {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-flexCol {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
